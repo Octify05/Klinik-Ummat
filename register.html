@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Pendaftaran Konsul</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><img src="logo (2).png" class="logo"></header>
+<main class="form-container">
+<h2>Form Pendaftaran Konsul / Berobat</h2>
+<form>
+<label>Nama Lengkap:</label><input type="text" required>
+<label>Tanggal Lahir:</label><input type="date" required>
+<label>Nomor Telepon:</label><input type="tel" required>
+<p>Jenis Kelamin:</p>
+<label><input type="radio" name="gender" value="Laki-laki"> Laki-laki</label>
+<label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+<label>Jenis Pelayanan:</label>
+<select>
+<option>Dokter Umum</option>
+<option>Dokter Gigi</option>
+<option>Dokter Anak</option>
+<option>Dokter Obgin</option>
+<option>Khitan</option>
+<option>Laboratorium</option>
+</select>
+<label>Tanggal Kunjungan:</label><input type="date" required>
+<label>Alamat:</label><textarea rows="3"></textarea>
+<label><input type="checkbox" required> Saya menyetujui syarat dan ketentuan</label>
+<button type="submit">Kirim Pendaftaran</button>
+</form>
+</main>
+</body>
+</html>

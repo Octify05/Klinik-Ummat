@@ -1,0 +1,66 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pendaftaran - Klinik Ummat</title><link rel="stylesheet" href="styles.css"></head><body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html"><img src="logo (2).png" alt="Logo Klinik Ummat" class="logo"></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger" aria-label="Buka menu"><span></span><span></span><span></span></label>
+      <nav class="main-nav"><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="services.html">Pelayanan</a></li>
+        <li><a href="programs.html">Program</a></li>
+        <li><a href="pendaftaran.html">Pendaftaran</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul></nav>
+      <aside class="offcanvas"><label for="nav-toggle" class="close-btn">✕</label><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="services.html">Pelayanan</a></li>
+        <li><a href="programs.html">Program</a></li>
+        <li><a href="pendaftaran.html">Pendaftaran</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul></aside>
+    </div>
+  </header>
+  <main class="container form-page card">
+    <h1>Pendaftaran Konsultasi / Berobat</h1>
+    <form class="sample-form" action="#" method="post">
+      <label for="name">Nama Lengkap</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="dob">Tanggal Lahir</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <fieldset>
+        <legend>Jenis Kelamin</legend>
+        <label><input type="radio" name="gender" value="male" required> Laki-laki</label>
+        <label><input type="radio" name="gender" value="female"> Perempuan</label>
+      </fieldset>
+      
+      <label for="phone">Nomor HP</label>
+      <input type="text" id="phone" name="phone" required>
+      
+      <label for="service">Pilih Layanan (centang jika perlu)</label>
+      <label><input type="checkbox" name="srv" value="konsultasi"> Konsultasi</label>
+      <label><input type="checkbox" name="srv" value="periksa"> Pemeriksaan</label>
+      <label><input type="checkbox" name="srv" value="khitan"> Khitan</label>
+      <label><input type="checkbox" name="srv" value="vaksin"> Vaksin</label>
+      
+      <label for="dokter">Pilih Dokter</label>
+      <select id="dokter" name="dokter">
+        <option value="any">Dokter Umum - Any</option>
+        <option value="dr_ahmad">Dr. Ahmad</option>
+        <option value="dr_siti">Dr. Siti</option>
+      </select>
+      
+      <label for="alamat">Alamat</label>
+      <textarea id="alamat" name="alamat" rows="3"></textarea>
+      
+      <button type="submit" class="btn">Daftar Sekarang</button>
+    </form>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>Contact center: +62-811-711-0079</p></div></footer>
+</body></html>
